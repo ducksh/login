@@ -20,8 +20,8 @@ function loginButton() {
 		if (username == user && password == pass) {							
 			document.getElementById("loginFeedback").innerHTML = "Bom trabalho! Sua flag foi gerada!";
 			document.getElementById("loginFeedback").style.color = 'green';			
-			console.log(h2o("717561636b7b434c49454e545f534944455f49535f4e4f545f534146457d"));		   			
-			sessionStorage.setItem('patonymous',h2o("717561636b7b434c49454e545f534944455f49535f4e4f545f534146457d"));
+			console.log(h2o("717561636b7b30345f434c49454e545f534944455f49535f4e4f545f534146457d"));		   			
+			sessionStorage.setItem('patonymous',h2o("717561636b7b30345f434c49454e545f534944455f49535f4e4f545f534146457d"));
 		}
 
 		else {	
